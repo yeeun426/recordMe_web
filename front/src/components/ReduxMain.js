@@ -1,12 +1,12 @@
-import CounterContainer from './containers/CounterContainer';
-import Todos from './Todo';
+import CounterContainer from '../containers/CounterContainer';
+import TodosContainer from '../containers/TodosContainer';
 
 const ReduxMain = () => {
     return (
         <div>
             <CounterContainer/>
             <hr />
-            <Todos />
+            <TodosContainer />
         </div>
     );
 };
