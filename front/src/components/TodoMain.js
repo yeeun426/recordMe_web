@@ -1,4 +1,3 @@
-import '../App.css';
 import { useState, useRef, useCallback } from 'react';
 import TodoInsert from './TodoInsert';
 import TodoList from './TodoList';
